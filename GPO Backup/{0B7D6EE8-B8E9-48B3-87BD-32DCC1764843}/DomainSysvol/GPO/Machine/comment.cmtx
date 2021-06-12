@@ -1,0 +1,17 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<policyComments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://www.microsoft.com/GroupPolicy/CommentDefinitions">
+  <policyNamespaces>
+    <using prefix="ns0" namespace="FSLogix.Policies"></using>
+  </policyNamespaces>
+  <comments>
+    <admTemplate>
+      <comment policyRef="ns0:456b108373d05e4aeed59b29c62e2acd" commentText="$(resource.ns0_456b108373d05e4aeed59b29c62e2acd)"></comment>
+    </admTemplate>
+  </comments>
+  <resources minRequiredRevision="1.0">
+    <stringTable>
+      <string id="ns0_456b108373d05e4aeed59b29c62e2acd">Renseigner le chemin du répertoire contenant le fichier redirections.xml.
+Ne pas spécifier le nom du fichier.</string>
+    </stringTable>
+  </resources>
+</policyComments>
